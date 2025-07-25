@@ -90,3 +90,7 @@ git switch <nombre_rama>	# para cambiar de rama
 
 git merge <nombre_rama>		# para combinar ramas
 
+# Conflictos
+
+git diff
+git merge 
