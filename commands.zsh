@@ -86,3 +86,7 @@ git tag -d <nombre_tag>
 git branch <nombre_rama>	# crea una rama de trabajo
 git switch <nombre_rama>	# para cambiar de rama
 
+# Combinación de ramas
+
+git merge <nombre_rama>		# para combinar ramas
+
