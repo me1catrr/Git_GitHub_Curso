@@ -66,7 +66,7 @@ git checkout main		# para hacer que el HEAD esté en el main
 
 # Reset y log de referencias
 
-git reset --hard			# 
+git reset --hard			# para eliminar todo hasta ese hash
 git reset --hard <hash>
 git reflog					# te muestra todo lo que se ha hecho
 							# y te permite mostrarte los hash para regresar
@@ -80,4 +80,8 @@ git tag <nombre_tag> <hash_commit>
 git show <nombre_tag>
 git checkout <nombre_tag>
 git tag -d <nombre_tag>
+
+# Creación de ramas
+
+git branch <nombre_rama>
 
