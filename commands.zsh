@@ -106,6 +106,8 @@ git stash clear
 
 # Reintegración de ramas
 
+git diff <nombre_rama_a_reintegrar>		# ver las diferencias
+git merge <nombre_rama_a_reintegrar>	# integrar ramas
 
 
 
