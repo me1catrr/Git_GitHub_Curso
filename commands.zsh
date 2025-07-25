@@ -94,3 +94,23 @@ git merge <nombre_rama>		# para combinar ramas
 
 git diff
 git merge 
+
+# Cambios temporales
+
+git stash			# guardar modificaciones temporales
+git stash list 		# listado de modificaciontes temporales
+git stash pop 		# descartar los cambios y regresar
+git stash apply
+git stash drop
+git stash clear 
+
+# Reintegración de ramas
+
+
+
+
+
+
+
+
+
