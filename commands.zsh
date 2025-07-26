@@ -130,6 +130,11 @@ git push -u origin main 	# carga todos los commits
 
 # Sincronización remota
 
+git fetch						# descarga todo el historial del marcador del repositorio GitHub (sin los cambios)		
+git pull						# descarga ambos
+git config pull.rebase false	
+
+
 
 
 
