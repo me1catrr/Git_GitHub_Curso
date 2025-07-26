@@ -132,11 +132,16 @@ git push -u origin main 	# carga todos los commits
 
 git fetch						# descarga todo el historial del marcador del repositorio GitHub (sin los cambios)		
 git pull						# descarga ambos
-git config pull.rebase false	
+git config pull.rebase false	# por si existen errores
 
+# Clonación de repositorios
 
+git clone <URL>					# por SSH te clonas una carpeta de GitHub
 
+# Subida de código
 
+git push
+git push --tags
 
 
 
