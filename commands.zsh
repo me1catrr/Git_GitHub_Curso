@@ -109,7 +109,22 @@ git stash clear
 git diff <nombre_rama_a_reintegrar>		# ver las diferencias
 git merge <nombre_rama_a_reintegrar>	# integrar ramas
 
+# Eliminación de ramas
 
+git branch --delete <nombre_rama>
+git branch -d <nombre_rama>
+
+# GitHub
+
+ssh 
+# Git en remoto
+
+git remote add origin git@github.com:<usuario_github>/<nombre_repositorio>.git	# subir nuestro código local al repositorio remeto en GitHub
+
+# Subida de un proyecto y sincronizar cambios
+git pull
+git push -u origin main 	# carga todos los commits 
+							# de la rama local al GitHub
 
 
 
